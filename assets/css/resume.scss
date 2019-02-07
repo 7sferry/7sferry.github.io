@@ -294,9 +294,14 @@ footer {
   }
 }
 
-@media screen and (max-height: 430px){
+@media screen and (max-height: 500px){
   p {
-    margin-top: -3%;
+    font-size: smaller;
+  }
+
+  h1{
+    padding-top: unset;
+    font-size: smaller;
   }
 
 }
