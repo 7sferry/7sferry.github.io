@@ -1,0 +1,25 @@
+# judul besar
+icon: 'me.png'
+title: "Ferry Suhandri"
+mail: '7sferry@gmail.com'
+desc:
+- {warna: green, tagline: ' Software Engineer'}
+- {warna: belize, tagline: ' Fast Learner'}
+- {warna: pomegranate, tagline: ' Hardwork Achiever'}
+- {warna: wisteria, tagline: ' Logical Thinker'}
+- {warna: midnight, tagline: ' Problem Solver'}
+
+deskripsi: 'Example of online CV or Resume for Software Engineer, Developer or Web Programmer made by Ferry Suhandri,
+an IT Strategist from Solok, West Sumatera Indonesia'
+author: 'Ferry Suhandri'
+publisher: 'https://facebook.com/7sferry'
+themeColor: "9f3636"
+
+#for index.html
+index:
+- {judul: "Resume", link: "resume", ikon: "👷‍♂️", warna1: "ffd817", warna2: "f6a21d",
+konten: "It contains my professional information includes skills, experiences and certificates."}
+- {judul: "Facebook", link: "https://facebook.com/ferry95", ikon: "👦", warna1: "ab6ee5", warna2: "9937ee",
+konten: "My personal social media. I actively using facebook in my free time."}
+- {judul: "Blog", link: "https://www.mrferry.co.vu/?m=0", ikon: "💻", warna1: "ff61b0", warna2: "fe2c7c",
+konten: "My personal blog. I used to share my point of view about things sometime."}

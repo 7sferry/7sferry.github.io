@@ -1,0 +1,60 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="indexHtml"  lang="en">
+
+<head id="home">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="description" content="{{site.data.set.title}}">
+    <meta name="theme-color" content="#{{ site.data.set.themeColor }}"/>
+    <title>{{site.data.set.title}}</title>
+    <link rel="stylesheet" href="../assets/css/resume.css">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="../assets/img/{{site.data.set.icon}}" />
+</head>
+
+<body>
+<!--<div id="container">-->
+    <div id="success-box">
+        <div class="face">
+            <div class="eye"></div>
+            <div class="eye right"></div>
+            <div class="mouth happy"></div>
+        </div>
+        <div class="shadow scale"></div>
+        <div class="message"><h1 class="alert">Sorry!</h1><p>page has been moved. click below to continue.</p></div>
+        <button class="button-box" onclick="lanjut()"><h1 class="green">continue</h1></button>
+    </div>
+    <!--<div id="error-box">-->
+        <!--<div class="dot"></div>-->
+        <!--<div class="dot two"></div>-->
+        <!--<div class="face2">-->
+            <!--<div class="eye"></div>-->
+            <!--<div class="eye right"></div>-->
+            <!--<div class="mouth sad"></div>-->
+        <!--</div>-->
+        <!--<div class="shadow move"></div>-->
+        <!--<div class="message"><h1 class="alert">Sorry!</h1><p>The page you're looking for has been moved.-->
+        <!--click to continue.</div>-->
+        <!--<a href="https://ferry.netlify.com/resume/" target="_blank" ><button class="button-box"><h1 class="red">continue</h1></button></a>-->
+    <!--</div>-->
+<!--</div>-->
+
+    <!--below for local only otherwise comment it-->
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
+    <!--above for local only otherwise comment it-->
+
+<footer>
+    <p class="inspire">inspired by <a href="https://codepen.io/juliepark"> julie</a> ♡
+</footer>
+<script>
+    function lanjut(){
+		window.open('https://ferry.netlify.com/resume/', '_blank');
+	}
+</script>
+</body>
+
+</html>
