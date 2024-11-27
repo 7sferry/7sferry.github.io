@@ -21,5 +21,5 @@ index:
 konten: "It contains my professional information includes skills, experiences and certificates."}
 - {judul: "Facebook", link: "https://facebook.com/ferry95", ikon: "👦", warna1: "ab6ee5", warna2: "9937ee",
 konten: "My personal social media. I actively using facebook in my free time."}
-- {judul: "Blog", link: "https://www.mrferry.co.vu/?m=0", ikon: "💻", warna1: "ff61b0", warna2: "fe2c7c",
+- {judul: "Blog", link: "https://ferry.vercel.app/", ikon: "💻", warna1: "ff61b0", warna2: "fe2c7c",
 konten: "My personal blog. I used to share my point of view about things sometime."}
